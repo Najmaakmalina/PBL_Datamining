@@ -11,7 +11,7 @@ Proyek ini bertujuan untuk memprediksi **Life Ladder** (tingkat kebahagiaan hidu
 ## Teknologi yang Digunakan
 - Python
 - Pandas dan NumPy untuk manipulasi data
-- Scikit-learn untuk membangun model prediksi dan clustering (misalnya, regresi, K-Means, dan hierarki clustering)
+- Scikit-learn untuk membangun model prediksi (SES , Moving Average, Linier Regression, ARIMA) dan clustering K-Means
 - Matplotlib dan Seaborn untuk visualisasi data
 
 ## Dataset
@@ -19,11 +19,11 @@ Dataset yang digunakan dalam proyek ini mencakup informasi tentang tingkat kebah
 
 ## Model yang Dibangun
 1. **Preprocessing Data:** Melakukan pembersihan data, normalisasi, dan pengisian nilai yang hilang.
-2. **Prediksi Life Ladder:** Menggunakan algoritma regresi seperti regresi linier dan random forest untuk memprediksi indeks kebahagiaan.
-3. **Clustering:** Melakukan clustering menggunakan K-Means dan hierarki untuk mengelompokkan negara berdasarkan hasil prediksi dan variabel lainnya.
+2. **Prediksi Life Ladder:** Menggunakan model SES , Moving Average, Linier Regression, ARIMA untuk memprediksi indeks kebahagiaan.
+3. **Clustering:** Melakukan clustering menggunakan K-Means untuk mengelompokkan negara berdasarkan hasil prediksi dan variabel lainnya.
 4. **Evaluasi Model:** Menggunakan metrik seperti MAE (Mean Absolute Error) dan silhouette score untuk mengevaluasi model prediksi dan clustering.
 
 ## Cara Menjalankan Proyek
 1. Clone repositori ini:
    ```bash
-   git clone https://github.com/username/proyek-prediksi-kesehatan-mental.git
+   git clone https://github.com/Najmaakmalina/PBL_Datamining.git
